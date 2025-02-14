@@ -5,14 +5,14 @@ import Button from '../components/Button.astro'
 <div x-data="{ showmenu: false }" class="p-4 fixed lg:static w-full bg-green-950" >
 <div id="navbar" class="flex flex-row justify-between">
 <div id="logo" class="pt-4 font-mono text-xl animate-pulse text-white">
-<a href="#link1">Ryd op Logo</a>
+<a href="/">Ryd op Logo</a>
 </div>
 <nav id="desktopmenu" class="hidden lg:block font-digibats text-xl text-green-400 no-underline">
 <ul class="flex flex-row gap-4 p-4">
-<li class=""><Link href="#" >Registrer dit bidrag</Link></li><!-- alternativt: lav et <a href="">Link</a>, hvis du ikke vil bruge Link.astro komponenten -->
-<li class=""><Link href="#" >Ressourcer</Link></li>
-<li class=""><Link href="#" >How to</Link></li>
-<li class=""><Button href="#" >Del resultat</Button></li>
+<li class=""><Link href="/registrer-dit-bidrag" >Registrer dit bidrag</Link></li><!-- alternativt: lav et <a href="">Link</a>, hvis du ikke vil bruge Link.astro komponenten -->
+<li class=""><Link href="/ressourcer" >Ressourcer</Link></li>
+<li class=""><Link href="/how-to" >How to</Link></li>
+<li class=""><Button>Del resultat</Button></li>
 </ul>
 </nav>
 <button id="burgermenu" class="lg:hidden" x-on:click="showmenu = ! showmenu">Menu</button>
@@ -20,10 +20,10 @@ import Button from '../components/Button.astro'
 <nav id="mobilmenu" class="flex flex-col content-center pt-4 text-green-400" 
 x-show="showmenu" x-transition x-on:click="showmenu = false" x-on:click.outside="showmenu = false">
 <ul >
-<li class="text-center py-2 border-y-2"><Link href="#" >Registrer dit bidrag</Link></li>
-<li class="text-center py-2 border-b-2"><Link href="#" >Ressourcer</Link></li>
-<li class="text-center py-2 border-b-2"><Link href="#" >How to</Link></li>
-<li class="text-center py-2 border-b-2"><Button href="#" >Del resultat</Button></li>
+<li class="text-center py-2 border-y-2"><Link href="/registrer-dit-bidrag" >Registrer dit bidrag</Link></li>
+<li class="text-center py-2 border-b-2"><Link href="/ressourcer" >Ressourcer</Link></li>
+<li class="text-center py-2 border-b-2"><Link href="/how-to" >How to</Link></li>
+<li class="text-center py-2 border-b-2"><Button href="/del-resultat" >Del resultat</Button></li>
 </ul>
 </nav>
 </div>
