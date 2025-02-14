@@ -1,5 +1,9 @@
 ---
+import Link from '../components/Link.astro'
 ---
 <div>
-    <button class="border-2 border-black"><slot /></button>
+    <Link>
+    <button class="bg-green-400 text-black cursor-pointer border-x-6 border-green-400"><slot /></button>
+    </Link>
 </div>
+

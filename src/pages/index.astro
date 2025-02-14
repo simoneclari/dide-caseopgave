@@ -6,10 +6,148 @@ import { Image } from 'astro:assets';
 import thumbsup from "../assets/images/thumbsup.png";
 ---
 <MainLayout title="Titel">
-	<article>
-		<h1>Index overskrift</h1>
-		<Button>Klik nuu!</Button>
-		<p>Link til <Link href="https://www.kea.dk" target="_blank">En anden side</Link></p>
-		<Image src={thumbsup} alt=""></Image>
-	</article>
+
+	<section class="hero-unit min-h-screen flex flex-col justify-center px-40">
+    <h1 class="text-9xl text-green-400">  
+        Digital<br>Oprydningsdag 
+    </h1>
+    <h1 class="text-2xl text-green-400 p-1">  
+        D. 15 Marts 2025
+    </h1>
+</section>
+
+<section class="grid grid-cols-2 gap-4 bg-green-400 min-h-screen items-center px-40">
+    <div class="col-start-1 text-7xl text-green-950 pt-30">
+        <h1>Hvad er<br>digital<br>oprydnings<br>dag?</h1>
+    </div>
+    <div class="col-start-2 text-green-950 text-xl pt-20">
+        <p>Digital Cleanup Day er en dag dedikeret til at rydde op i vores digitale liv – på samme måde som vi rydder op i vores fysiske miljø på World Cleanup Day.
+        Nu i sit femte år og arrangeret af Let's Do It World har Digital Cleanup Day til formål at øge bevidstheden om digital forurening og opfordre både enkeltpersoner og virksomheder til at rydde op og organisere deres online tilstedeværelse.
+        </p>
+    </div>
+    <div class="col-span-2 flex justify-center pb-30">
+        <button type="submit"  
+            class="px-20 bg-green-950 border-2 text-green-400 p-3 mt-4 hover:bg-green-400 hover:border-2 border-green-950 hover:text-green-950 transition">
+            d. 15 marts 2025
+        </button>
+    </div>
+</section>
+
+<section class="min-h-screen flex flex-col justify-center px-40 text-green-400">
+    <h1 class="text-7xl text-green-400 pb-10">
+        Hvorfor rydder vi op i dit<br> digitale rod?
+    </h1>
+    <div class="grid grid-cols-5 gap-10 items-center pt-10 text-xl">
+        <div class="flex flex-col items-center">
+            <img class="w-20 h-20" src="/" alt="">
+            <p class="text-center">Hjælper med at reducere CO2-udledning</p>
+        </div>
+        <div class="flex flex-col items-center">
+            <img class="w-20 h-20" src="/" alt="">
+            <p class="text-center">Hjælper med at reducere CO2-udledning</p>
+        </div>
+        <div class="flex flex-col items-center">
+            <img class="w-20 h-20" src="/" alt="">
+            <p class="text-center">Hjælper med at reducere CO2-udledning</p>
+        </div>
+        <div class="flex flex-col items-center">
+            <img class="w-20 h-20" src="/" alt="">
+            <p class="text-center">Hjælper med at reducere CO2-udledning</p>
+        </div>
+        <div class="flex flex-col items-center">
+            <img class="w-20 h-20" src="/" alt="">
+            <p class="text-center">Hjælper med at reducere CO2-udledning</p>
+        </div>
+    </div>
+</section>
+
+<section class="min-h-screen grid md:grid-cols-2 items-center px-40 bg-green-400">
+	<div class="overflow-hidden rounded-md">
+    <img src="/" alt="billede" class="w-full h-auto hover:scale-130 duration-300 ease-in-out">
+		</div>
+    <div class="p-10">
+        <h1 class="text-2xl text-green-950">  
+            Vær cool – undgå at fodre global opvarmning med digitalt affald!
+        </h1>
+
+        <h1 class="text-xl mt-10 text-green-950">Skær ned på dit CO2-aftryk-<br>Deltag i digital clean up day!</h1>
+            <!-- Knap -->
+			 <div class="">
+            <button type="submit"  
+                class="w-full bg-green-950 border-2 text-green-400 p-3 mt-4 hover:bg-green-400 hover:border-2 border-green-950 hover:text-green-950 transition">
+				Del Resultat
+            </button>
+			</div>
+    </div>
+</section>
+
+
+
+<section class="min-h-screen flex flex-col justify-center px-40 bg-green-950 text-green-400">
+    <h1 class="text-7xl text-green-400 pb-10">
+        Fakta om digital skrald
+    </h1>
+    <div class="grid grid-cols-3 gap-10 items-center pt-30 text-2xl">
+        <div class="flex flex-col items-center">
+            <img class="w-20 h-20" src="/" alt="">
+            <p class="text-center">Infografik og fakta</p>
+        </div>
+        <div class="flex flex-col items-center">
+            <img class="w-20 h-20" src="/" alt="">
+            <p class="text-center">Infografik og fakta</p>
+        </div>
+        <div class="flex flex-col items-center">
+            <img class="w-20 h-20" src="/" alt="">
+            <p class="text-center">Infografik og fakta</p>
+        </div>
+    </div>
+</section>
+
+<section class="min-h-screen grid md:grid-cols-2 items-center px-40 bg-green-400">
+    <div class="">
+        <h1 class="text-6xl text-green-950">  
+            Sådan deltager du
+        </h1>
+        <!-- Knap -->
+			 <div class="pt-10">
+            <button type="submit"  
+                class="w-full bg-green-950 border-2 text-green-400 text-2xl p-3 mt-4 hover:bg-green-400 hover:border-2 border-green-950 hover:text-green-950 transition">
+				Som privatperson
+            </button>
+			 </div>
+			<div class="pt-5">
+			 <button type="submit"  
+                class="w-full bg-green-950 border-2 text-green-400 text-2xl p-3 mt-4 hover:bg-green-400 hover:border-2 border-green-950 hover:text-green-950 transition">
+				Som virksomhed
+            </button>
+			</div>
+    </div>
+	<div class="overflow-hidden rounded-md p-20">
+    <img src="/" alt="billede" class="w-full h-auto hover:scale-130 duration-300 ease-in-out">
+	</div>
+</section>
+
+<section class="min-h-screen flex flex-col justify-center px-40 bg-green-950 text-green-400">
+    <h1 class="text-7xl text-green-400 pb-10">
+        Digital oprydningsdag i tal
+    </h1>
+    <div class="grid grid-cols-3 gap-10 items-center pt-30 text-2xl">
+        <div class="flex flex-col items-center">
+            <img class="w-20 h-20" src="/" alt="">
+            <p class="text-center">1.5809</p>
+			<p class="text-center">DELTAGERE</p>
+        </div>
+        <div class="flex flex-col items-center">
+            <img class="w-20 h-20" src="/" alt="">
+             <p class="text-center">1.5809</p>
+			<p class="text-center">DATA</p>
+        </div>
+        <div class="flex flex-col items-center">
+            <img class="w-20 h-20" src="/" alt="">
+             <p class="text-center">1.5809</p>
+			<p class="text-center">DATA</p>
+        </div>
+    </div>
+</section>
+
 </MainLayout>

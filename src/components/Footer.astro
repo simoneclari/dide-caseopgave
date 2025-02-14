@@ -1,6 +1,22 @@
 ---
+import Link from '../components/Link.astro'
 ---
-<div>
-<p>Footer - tilføj footerindhold</p>
-</div>
+<section class="grid md:grid-cols-2 bg-green-400 pt-10 pb-10 pl-60 pr-60">
+	<div class="place-items-center">
+    <img src="/favicon.svg" alt="billede" class="w-60 h-auto hover:scale-110 duration-300 ease-in-out">
+		</div>
+    <div class="place-items-center">
+        <ul class="gap-4 p-4 text-green-950">
+<li class=""><Link href="#" >Blog</Link></li><!-- alternativt: lav et <a href="">Link</a>, hvis du ikke vil bruge Link.astro komponenten -->
+<li class=""><Link href="#" >Join the movement</Link></li>
+<li class=""><Link href="#" >Constitution</Link></li>
+<li class=""><Link href="#" >Marketing Materials</Link></li>
+</ul>
+<ul class="flex flex-row gap-4 p-4 text-green-950">
+<li class=""><Link href="#" >Icon</Link></li><!-- alternativt: lav et <a href="">Link</a>, hvis du ikke vil bruge Link.astro komponenten -->
+<li class=""><Link href="#" >Icon</Link></li>
+<li class=""><Link href="#" >Icon</Link></li>
+</ul>  
+    </div>
+</section>
   
