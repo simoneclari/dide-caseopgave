@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60.4 64.5">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke-width: 2px;
+      }
+
+      .cls-1, .cls-2 {
+        fill: none;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        stroke: #6ae367;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-3 {
+        stroke-width: 4px;
+      }
+
+      .cls-3, .cls-4 {
+        fill: #122a0e;
+      }
+
+      .cls-4 {
+        stroke-width: 3px;
+      }
+    </style>
+  </defs>
+  <g id="Layer_5" data-name="Layer 5">
+    <rect class="cls-1" x="6.5" y="1" width="46" height="22"/>
+    <rect class="cls-1" x="10.5" y="5" width="16" height="16"/>
+    <line class="cls-1" x1="33" y1="9" x2="49" y2="9"/>
+    <line class="cls-1" x1="33" y1="13" x2="49" y2="13"/>
+    <line class="cls-1" x1="33" y1="17" x2="49" y2="17"/>
+    <line class="cls-1" x1="29.32" y1="17.08" x2="30.5" y2="17.08"/>
+    <line class="cls-1" x1="29.32" y1="9.08" x2="30.5" y2="9.08"/>
+    <line class="cls-1" x1="29.32" y1="13.08" x2="30.5" y2="13.08"/>
+    <rect class="cls-1" x="14.5" y="13" width="8" height="5" rx="2.5" ry="2.5"/>
+    <rect class="cls-1" x="16.5" y="9" width="4" height="4" rx="1.68" ry="1.68"/>
+  </g>
+  <g id="map">
+    <path class="cls-3" d="M17.23,23.5h33.12c3.12,0,5.65,2.53,5.65,5.65v26.69c0,3.12-2.53,5.65-5.65,5.65H7.65c-3.12,0-5.65-2.53-5.65-5.65v-26.69"/>
+    <rect class="cls-3" x="2" y="18.5" width="17" height="12" rx="1.48" ry="1.48"/>
+  </g>
+  <g id="Layer_3" data-name="Layer 3">
+    <rect class="cls-1" x="21.5" y="30" width="12" height="13" rx="5" ry="5"/>
+    <rect class="cls-1" x="25.5" y="34" width="4" height="6" rx="2" ry="2"/>
+  </g>
+  <g id="låskrop">
+    <rect class="cls-4" x="19" y="39.5" width="17" height="13"/>
+  </g>
+  <g id="låsikon">
+    <circle class="cls-2" cx="27.5" cy="45" r="2"/>
+    <line class="cls-2" x1="27.5" y1="49" x2="27.5" y2="47"/>
+  </g>
+</svg>

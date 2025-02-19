@@ -4,8 +4,10 @@ import Button from '../components/Button.astro'
 ---
 <div x-data="{ showmenu: false }" class="p-4 fixed lg:static w-full bg-green-950" >
 <div id="navbar" class="flex flex-row justify-between">
-<div id="logo" class="pt-4 font-mono text-xl animate-pulse text-white">
-<a href="/">Ryd op Logo</a>
+<div id="logo" class="animate-pulse flex items-center gap-2">
+    <a href="/">
+  <img src="/logo.svg" alt="Ryd op Logo" class="h-20 w-full">
+  </a>
 </div>
 <nav id="desktopmenu" class="hidden lg:block font-digibats text-xl text-green-400 no-underline">
 <ul class="flex flex-row gap-4 p-4">
